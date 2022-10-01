@@ -1,0 +1,13 @@
+//  npm-init for package json
+//  Script > "sass": "sass --watch ./index.scss:.index.css --style compressed",
+//  "prefix": "postcss ./index.css --use autoprefixer -d .prefixed/"
+// Add new section > "browserslist": "last 4 versions"
+// npm-run prefix
+
+@import "./utils/variables";
+@import "./vendors/vendors";
+@import "./base/base";
+@import "./components/components";
+@import "./layouts/layout";
+@import "./pages/pages";
+@import "./themes/themes";
